@@ -19,7 +19,7 @@ $(document).ready(function() {
 
       //City
 
-      html = '<p class="city">Wollongong, NSW</p>';
+      html = '<h1>Wollongong, NSW</h1>';
       html += '<div id\="currentTemp"><span>' + weather.temp + '&deg;</span>';
       //Current conditions text e.g. 'Mostly Sunny' and high and low
       html += '<p class="currentWeatherConditions">' + weather.currently + ' ' + weather.low + '&deg; / ' + weather.high + '&deg; </p></div>';
